@@ -1,6 +1,6 @@
 var SerialPort = require("serialport");
 
-// enter in the command you want to test  (api buffer will be built)
+// enter in just the command you want to test  (the complete api  command will be built)
 let cmdArr = [254, 175, 0];
 console.log('The command to be sent: ', cmdArr)
 
@@ -9,7 +9,7 @@ let apiCode = 170;
 let device = "/dev/ttyUSB0"
 let baudrate = 115200  // default is 8,N,1
 
-// variables needed
+// variables - leave these.
 let checksum = 0;
 let response = [];
 
