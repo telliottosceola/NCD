@@ -1,0 +1,6 @@
+{
+"globals": {
+    "RepoPath"   : true,
+    "Debug"   : true
+   }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "NCD",
+  "version": "0.0.1",
+  "description": "NCD - National Control Devices - Testing and Dev Suite",
+  "main": " ",
+  "scripts": {
+    "start": "node devicetest.js"
+  },
+  "author": "David Kebler  d@kebler.net",
+  "license": "MIT",
+  "dependencies": {
+    "serialport": "^4.0.3"
+  }
+}
