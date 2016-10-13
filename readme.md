@@ -1,7 +1,7 @@
 <h2>National Control Devices</h2>
 <h4>A nodejs/javascript based library for testing and programming of NCD boards </h4>
 
-This just a simple start of a more robust repo with a CLI and several registerable modules that abstract most of the inner workings of [NCD boards](http://controlanything.com).  10/13/16
+This just a start of a more robust repo that will include a CLI and several registerable modules that abstract most of the inner workings of [NCD boards](http://controlanything.com).  10/13/16
 
 Assuming you have [nodejs](https://nodejs.org/en/download/) loaded on your machine (this repo uses always the latest node currently 6.x) from a terminal in the repository root run ```npm install```
 
