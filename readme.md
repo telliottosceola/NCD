@@ -1,5 +1,5 @@
 **National Control Devices**  
-A nodejs/javascript Based Library for testing and programming of [NCD Devices](controleverything.com)
+A nodejs/javascript Based Library for testing and programming of [NCD Devices](http://controleverything.com)
 
 This just a simple start of more robust repo with a CLI and several registerable modules that abstract most of the inner workings of NCD boards.  10/13/16
 
