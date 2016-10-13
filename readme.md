@@ -13,4 +13,4 @@ then....enter the NCD command in the variable ```cmdArr```, no need for the api 
 
 Then run ```npm start```  ...that's it.
 
-If it can't open the port then probably you have a cable/connection problem.  If it says ```"message sent..."``` but the next line "complete response" does not appear then likely you have a baud rate mismatch problem and/or the 8,N,1 settings on the board were changed.
+If it can't open the port then probably you have a cable connection problem (is board power up he asked) and/or your device string in the settings is incorrect.  If it says ```"message sent..."``` but the next line ```"complete response"``` does not appear then likely you have a baud rate mismatch problem and/or the 8,N,1 settings on the board were changed.
