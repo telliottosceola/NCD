@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "NCD - National Control Devices - Testing and Dev Suite",
   "main": " ",
-  "nodejs": "6.x.x"
+  "nodejs": "6.x.x",
   "scripts": {
     "start": "node devicetest.js"
   },

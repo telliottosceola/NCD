@@ -32,10 +32,13 @@ port.on('error', function(err) {
 
 port.on('open', function() {
 
+    // === comment this block if you don't want or need to use the API codec
     cmdArr.unshift(cmdArr.length);
     cmdArr.unshift(apiCode);
     checksum = cmdArr.reduce((a, b) => a + b, 0) & 255;
     cmdArr.push(checksum);
+    // =====
+
     console.log('api command array: ', cmdArr)
     let cmdBuf = new Buffer(cmdArr); // get status of bank 0
     console.log('command as buffer: ', cmdBuf)
