@@ -1,3 +1,5 @@
+"use strict";
+
 var SerialPort = require("serialport");
 
 // enter in just the command you want to test  (the complete api  command will be built)
